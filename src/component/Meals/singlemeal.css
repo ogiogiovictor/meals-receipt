@@ -1,0 +1,40 @@
+.meal-details{
+    padding-bottom: 10px;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.meal-image {
+    border:1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    width: 95%;
+}
+
+.mealitems{
+    width: 90%;
+}
+
+.mealitems ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .mealitems ul li {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+    color: #2d2013;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0 5px 5px 0;
+  }
+
+  .instructions {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.6rem;
+  }
