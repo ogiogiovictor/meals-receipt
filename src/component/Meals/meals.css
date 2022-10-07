@@ -40,3 +40,26 @@
     cursor: pointer;
 }
 
+.meal-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.meal-header h1{
+    flex: 1;
+}
+
+.meal-header input{
+    flex: 3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 30px;
+
+}
+.meal-header select {
+    flex: 2;
+    border: 1px solid #ccc;
+    margin-right: 7px;
+}
+

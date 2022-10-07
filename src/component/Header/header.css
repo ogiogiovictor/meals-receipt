@@ -43,6 +43,14 @@
     display: none;
   }
 
+  .closeMenu {
+    font-size: 40px;
+    float: right;
+    padding-right: 15px;
+    margin-top: -50px;
+  }
+
+
   @media (max-width: 767px) { 
     .nav-link {
         display: none;
@@ -53,7 +61,6 @@
     
     .nav-link-mobile {
         overflow: hidden;
-       
         background-color: #892b51;;
         opacity: 0.9;
         position: fixed;

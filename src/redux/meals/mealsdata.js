@@ -1,4 +1,5 @@
 const url = 'https://www.themealdb.com/api/json/v1/1/search.php?s=';
+const cat = 'https://www.themealdb.com/api/json/v1/1/categories.php';
 
 const mealInsgredients = (meal)  => {
   const ingredients = [];
@@ -44,5 +45,17 @@ const fetchRandMeals = async (string) => {
   }
 };
 
+const getCategoryMeals = async () => {
+  const response = await fetch(cat);
+  const data = await response.json();
+  const categoryMeal = data.categories.map((meal) => ({
+    id: meal.idCategory,
+    meal_name: meal.strCategory,
+    category: meal.strCategoryThumb,
+    description: meal.strCategoryDescription
+  }));
+  return categoryMeal;
+};
 
+export { getCategoryMeals }
 export default fetchRandMeals;

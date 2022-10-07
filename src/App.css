@@ -19,7 +19,7 @@
 }
 
 .container-fluid {
-  background-color:  #cdc6c9;
+  background-color:  #fd5294;
  
 }
 
@@ -90,3 +90,40 @@
   }
 }
 
+.pushTop{
+  margin-top: -40px;
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .meal-header {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .meal-header input{
+    margin-bottom: 10px;
+  }
+  .meal-header select{
+    padding: 10px;
+  }
+  .details {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  
+ 
+}
+
+@media (max-width: 479px) {
+  .grid-container {
+    grid-template-columns: auto;
+    }
+    .meal-header {
+      display: flex;
+      flex-direction: column;
+  }
+  
+}

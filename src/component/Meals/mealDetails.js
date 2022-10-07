@@ -1,7 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link} from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import SingleMealDetails from './singleMealdetails';
+import { ImUndo2, ImArrowLeft, ImReply } from "react-icons/im";
 import './singlemeal.css';
 
 const MealDetails = () => {
@@ -13,7 +14,8 @@ const MealDetails = () => {
 
     return (
     <div className="meals-bg">
-        <h1 className="meal-details">Meal Details</h1>
+        <h1 className="meal-details">Meal Details  <Link to="/" className="pushTop"> <ImReply size={30} /></Link></h1>
+       
         <SingleMealDetails      
                 key={findmeals.id}
                 id={findmeals.id}

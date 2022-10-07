@@ -1,5 +1,7 @@
 import React from 'react';
 import SingleMeal from './singleMeal';
+import './mealcontainer.css';
+
 
 const mealsContainer = ({ meals }) => {
 

@@ -10,7 +10,8 @@ mealImage, mealSource, soup, youtube}) => {
         <Fragment>
         <div className="details">
             <div class="image">
-                <img src={mealImage} className="meal-image" />
+                <img src={mealImage} className="meal-image" /> 
+                
             </div>
             <div className="mealitems">
                 <div>Meal Name: <b> {meal_name} </b></div>
