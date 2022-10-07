@@ -1,0 +1,9 @@
+.aboutList ul {
+    
+}
+
+.aboutList li {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
