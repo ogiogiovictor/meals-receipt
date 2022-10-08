@@ -6,12 +6,12 @@ import store from '../redux/configureStore';
 import App from '../App';
 
 it('App Renders Correctly', () => {
-    const tree = renderer.create(
-      <Provider store={store}>
-        <Router>
-          <App />
-        </Router>
-      </Provider>,
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+  const tree = renderer.create(
+    <Provider store={store}>
+      <Router>
+        <App />
+      </Router>
+    </Provider>,
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
