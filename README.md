@@ -44,6 +44,7 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- Inspiration: Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
