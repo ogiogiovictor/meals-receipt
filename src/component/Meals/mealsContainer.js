@@ -1,31 +1,25 @@
 import React from 'react';
 import SingleMeal from './singleMeal';
-import './mealcontainer.css';
 
+const mealsContainer = ({ meals }) => (
+  <div className="grid-container">
+    {meals.map((ml) => (
 
-const mealsContainer = ({ meals }) => {
+      <SingleMeal
+        key={ml.id}
+        id={ml.id}
+        meal_name={ml.meal_name}
+        category={ml.category}
+        mealInstruction={ml.mealInstruction}
+        mealImage={ml.mealImage}
+        youtube={ml.youtube}
+        mealSource={ml.mealSource}
+        area={ml.area}
+      />
 
-    return (
-        <div className="grid-container">
-            {meals.map((ml) => (
+    ))}
 
-            <SingleMeal
-                key={ml.id}
-                id={ml.id}
-                meal_name={ml.meal_name}
-                category={ml.category}
-                mealInstruction={ml.mealInstruction}
-                mealImage={ml.mealImage}
-                youtube={ml.youtube}
-                mealSource={ml.mealSource}
-                area={ml.area}
-                />
-
-                ))
-            }
-
-        </div>
-    )
-}
+  </div>
+);
 
 export default mealsContainer;

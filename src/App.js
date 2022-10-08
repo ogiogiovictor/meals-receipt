@@ -9,21 +9,19 @@ import About from './pages/about/about';
 
 import './App.css';
 
-const App = () => {
-  return (
-    <div className="container-fluid">
-      <div className="container">
+const App = () => (
+  <div className="container-fluid">
+    <div className="container">
       <Header />
       <Routes>
-            <Route exact path="/" element={<Meals />} />
-            <Route exact path="/meal/:id" element={<MealDetails />} />
-            <Route exact path="/category" element={<Category />} />
-            <Route exact path="/about" element={<About />} />
+        <Route exact path="/" element={<Meals />} />
+        <Route exact path="/meal/:id" element={<MealDetails />} />
+        <Route exact path="/category" element={<Category />} />
+        <Route exact path="/about" element={<About />} />
       </Routes>
       <Footer />
-      </div>
     </div>
-  );
-}
+  </div>
+);
 
 export default App;

@@ -1,33 +1,34 @@
 .imageCategory {
-    width:200px;
+  width: 200px;
 }
 
 .formated {
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  line-height: 1.6rem;
 }
+
 table {
-    width: 100%;
-  }
-  
-  thead th:nth-child(1) {
-    width: 5%;
-  }
-  
-  thead th:nth-child(2) {
-    width: 10%;
-  }
-  
-  thead th:nth-child(3) {
-    width: 10%;
-  }
-  
-  thead th:nth-child(4) {
-    width: 50%;
-  }
-  
-  th,
-  td {
-    padding: 20px;
-  }
+  width: 100%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+thead th:nth-child(1) {
+  width: 5%;
+}
+
+thead th:nth-child(2) {
+  width: 10%;
+}
+
+thead th:nth-child(3) {
+  width: 10%;
+}
+
+thead th:nth-child(4) {
+  width: 50%;
+}
