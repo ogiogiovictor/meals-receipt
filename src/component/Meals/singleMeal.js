@@ -27,11 +27,11 @@ SingleMeal.propTypes = {
   id: PropTypes.string.isRequired,
   meal_name: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
-  mealInstruction: PropTypes.bool.isRequired,
+  mealInstruction: PropTypes.string,
   mealImage: PropTypes.string.isRequired,
-  youtube: PropTypes.string.isRequired,
-  mealSource: PropTypes.string.isRequired,
-  area: PropTypes.string.isRequired,
+  youtube: PropTypes.string,
+  mealSource: PropTypes.string,
+  area: PropTypes.string,
 };
 
 export default SingleMeal;

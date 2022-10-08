@@ -23,9 +23,11 @@ To get a local copy up and running follw these simple example steps:
 ```
 Important: Once you have downloaded the code, run npm install, to install all dependencies of the project for it to work properly.
 
-# Website URL - Github Pages
-The Webpage is now deployed using github pages. See url link below:
-comming soom
+# Project Link - Github Pages
+(Page Link) [http://ogiogiovictor.me/meals-receipt/]
+
+# Video Link - Github Pages
+(Video Link)[https://www.loom.com/share/f762290a2d0a4a2591d50d84050c5533]
 
 ## Authors
 👤 **Ogiogio Victor**

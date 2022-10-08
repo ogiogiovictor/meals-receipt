@@ -8,7 +8,7 @@ import './category.css';
 const Category = () => {
   const category = useSelector((state) => state.category);
   // const [cat, setCat] = useState('');
-
+  console.log(category);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const Category = () => {
           <thead>
             <tr>
               <th>ID</th>
-              <th>Category</th>
+              {/* <th>Category</th> */}
               <th>Image</th>
               <th>Description</th>
             </tr>
@@ -37,7 +37,7 @@ const Category = () => {
             {category.map((cat) => (
               <tr key={cat.id}>
                 <td>{cat.id}</td>
-                <td>{cat.meal_name}</td>
+                {/* <td>{cat.meal_name}</td> */}
                 <td><img src={cat.category} className="imageCategory" alt={meal_name} /></td>
                 <td className="formated">{cat.description}</td>
               </tr>
