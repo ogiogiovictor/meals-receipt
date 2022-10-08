@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders meals correctly 1`] = `
+<div
+  className="meals-bg"
+>
+  <div
+    className="meal-header"
+  >
+    <h1>
+      Meals
+    </h1>
+    <input
+      onChange={[Function]}
+      placeholder="Search Meal"
+      type="search"
+      value={Array []}
+    />
+    <select
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value="All"
+      >
+        All Meals
+      </option>
+    </select>
+  </div>
+  <div
+    className="grid-container"
+  />
+</div>
+`;
